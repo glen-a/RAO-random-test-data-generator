@@ -18,10 +18,14 @@ player
 infractions
 alternate offers
 oneOffAvailability
-qualification/userqual/offerqual
 administration
 events
-willinglocations
+
+16/9/2015:
+now has qualifications, user quals and offerquals
+
+Offers are now assigned to a placeholder referee, prepped for assigning by the system automatically
+
 
 */
 
@@ -37,6 +41,7 @@ using namespace std;
 
 	std::vector<int> refereeIds;
 	std::vector<string> refereeUserNames;
+	std::vector<int> offerIds;
 
 string fnames[60] = {"Omer"
 ,"Williams"
@@ -266,7 +271,11 @@ static string listOfFieldNames[11] = {"glens field", "collegens field", "steel f
 									  "middle field", "first field", "last field",
 									  "main field"};
 static string listOfTypes[4]={"Referee","Referee Assistant 1","Referee Assistant 2","Fourth Official"};
+static string listOfQualifications[4]={"Referee"};
 
+static string possibleTimesOfMatches[5]={"9:00:00 AM", "11:30:00 AM", "2:00:00 PM", "4:30:00 PM", "7:00:00 PM"};
+
+int NUMMATCHES = 20;
 
 
 int getRand(int upper,int lower){
@@ -377,12 +386,17 @@ void generateType(){
 	types.close();
 }
 
+//random offers to existing referees
 void generateOffer(int matchId, ofstream &offers, vector<int> refereeIds, int j){
+
+	int offerId = getRand(100000,0);
+	offerIds.push_back(offerId);
+
 
 	offers << "INSERT INTO [dbo].[OFFER] \n ";
 	offers << "(offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) \n";
 	offers <<  "values \n(\n";
-	offers << "\'" << getRand(100000,0) <<"\',\n"; //offer id
+	offers << "\'" << offerId <<"\',\n"; //offer id
 	offers << "\'" << "Soccer"<<"\',\n";
 	offers << "\'" << matchId <<"\',\n";
 	offers << "\'" << refereeIds.at(getRand(refereeIds.size(),0)) <<"\',\n"; //ref id
@@ -395,9 +409,30 @@ void generateOffer(int matchId, ofstream &offers, vector<int> refereeIds, int j)
 
 }
 
+//algorithm assigned offers
+void generateOffer(int matchId, ofstream &offers, int j){
+	int offerId = getRand(100000,0);
+	offerIds.push_back(offerId);
+
+	offers << "INSERT INTO [dbo].[OFFER] \n ";
+	offers << "(offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) \n";
+	offers <<  "values \n(\n";
+	offers << "\'" << offerId <<"\',\n"; //offer id
+	offers << "\'" << "Soccer"<<"\',\n";
+	offers << "\'" << matchId <<"\',\n";
+	offers << "\'" << 10000<<"\',\n"; //blank offer
+	offers << "\'" << 4 <<"\',\n"; //status
+	offers << "\'" << "2015/9/11" <<"\',\n"; //todays date
+	offers << "" << "null" <<",\n"; //status
+	offers << "\'" << 5 <<"\',\n"; //priority
+	offers << "\'" << listOfTypes[j] <<"\'\n"; // type
+	offers << ")\n GO \n\n";
+
+}
+
 void generateMatches(ofstream &matches, ofstream &offers, vector<int> refereeIds){
 
-	for(int i=0;i<20;i++){
+	for(int i=0;i<NUMMATCHES;i++){
 		int teamA = getRand(20,1);
 		int teamB = getRand(20,1);
 		while(teamA==teamB){
@@ -409,7 +444,7 @@ void generateMatches(ofstream &matches, ofstream &offers, vector<int> refereeIds
 		matches <<  "values \n(\n";	
 
 		matches << "\'" << i+1 <<"\',\n"; 
-		matches << "\'" << "2015/" <<  getRand(3,9) <<"/" <<getRand(30,0) << "\',\n"; //date yyyy/dd/mm
+		matches << "\'" << "2015/" <<  10<<"/" <<getRand(1,3) << " " << possibleTimesOfMatches[getRand(4,0)]<< "\',\n"; //date yyyy/dd/mm
 		matches << "\'" << getRand(10,1) <<"\',\n"; 
 		matches << "\'" << teamA <<"\',\n";
 		matches << "\'" << teamB <<"\',\n";
@@ -422,7 +457,8 @@ void generateMatches(ofstream &matches, ofstream &offers, vector<int> refereeIds
 		matches << ")\n GO \n\n";
 		if(getRand(10,0) > 5){
 			for(int j=0;j<getRand(3,1);j++){
-				generateOffer(i, offers, refereeIds, j);
+				//generateOffer(i, offers, refereeIds, j);
+				generateOffer(i+1, offers, j);
 			}
 		}
 	}
@@ -437,17 +473,68 @@ void generateWeekly(vector<int> refIDs){
 
 		fout << "INSERT INTO [dbo].[WEEKLYAVAILABILITY] \n values \n(\n";
 		fout << "\'" << refIDs.at(i) <<"\',\n";
-		fout << "\'" << getRand(6,0) <<"\',\n"; //monday
-		fout << "\'" << getRand(6,0) <<"\',\n"; //
-		fout << "\'" << getRand(6,0) <<"\',\n"; //
-		fout << "\'" << getRand(6,0) <<"\',\n"; //
-		fout << "\'" << getRand(6,0) <<"\',\n"; //
-		fout << "\'" << getRand(6,0) <<"\',\n"; //
-		fout << "\'" << getRand(6,0) <<"\'\n"; //sunday
+		fout << "\'" << getRand(3,3) <<"\',\n"; //monday
+		fout << "\'" << getRand(3,3) <<"\',\n"; //
+		fout << "\'" << getRand(3,3) <<"\',\n"; //
+		fout << "\'" << getRand(3,3) <<"\',\n"; //
+		fout << "\'" << getRand(3,3) <<"\',\n"; //
+		fout << "\'" << getRand(3,3) <<"\',\n"; //
+		fout << "\'" << getRand(3,3) <<"\'\n"; //sunday
 		fout << ")\n GO \n\n";
 
 	}
 	fout.close();
+}
+
+void generateQualifications(ofstream &qualifications){
+
+
+		qualifications << "INSERT INTO [dbo].[QUALIFICATIONS] \n";
+		qualifications << "(qualificationId, name, sport, description, qualificationLevel, status) \n";
+		qualifications <<  "values \n(\n";	
+
+		qualifications << "\'" << 1 <<"\',\n";  //id
+		qualifications << "\'" << "Referee" <<"\',\n"; //name
+		qualifications << "\'" << "Soccer" <<"\',\n"; //sport
+		qualifications << "\'" << "referee qualification level" <<"\',\n";  //desc
+		qualifications << "\'" << 4 <<"\',\n"; //qualLevelMax
+		qualifications << "\'" << 1 <<"\'\n";//status
+		qualifications << ")\n GO \n\n";
+	
+}
+
+void generateUserQualifications(){
+
+	ofstream qualifications;
+	qualifications.open("./insertsRaw/refQuals.sql");
+
+	for(int i=0;i<refereeIds.size();i++){
+
+		qualifications << "INSERT INTO [dbo].[USERQUAL] values \n(\n";	
+
+		qualifications << "\'" << 1 <<"\',\n";  //Qualid
+		qualifications << "\'" << refereeIds.at(i) <<"\',\n"; //refId
+		qualifications << "\'" << getRand(3,1) <<"\'\n";//level
+		qualifications << ")\n GO \n\n";
+	}
+	qualifications.close();
+}
+
+void generateOfferQualifications(){
+
+	ofstream qualifications;
+	qualifications.open("./insertsRaw/offerQuals.sql");
+
+	for(int i=0;i<offerIds.size();i++){
+
+		qualifications << "INSERT INTO [dbo].[OFFERQUAL] values \n(\n";	
+
+		qualifications << "\'" << 1 <<"\',\n";  //QualId
+		qualifications << "\'" << offerIds.at(i) <<"\',\n"; //offerId
+		qualifications << "\'" << getRand(3,1) <<"\'\n";//level
+		qualifications << ")\n GO \n\n";
+	}
+	qualifications.close();
 }
 
 void generateSingleScript(){
@@ -557,7 +644,27 @@ void generateSingleScript(){
 	}
 	input.close();
 
+		//add qualifications
+		input.open( "./insertsRaw/qualifications.sql", ios::in );
+	while(input.get(c)){
+	    output << c;
+	}
+	input.close();
 
+		//add user quals
+		input.open( "./insertsRaw/refQuals.sql", ios::in );
+	while(input.get(c)){
+	    output << c;
+	}
+	input.close();
+
+
+		//add offerquals
+		input.open( "./insertsRaw/offerQuals.sql", ios::in );
+	while(input.get(c)){
+	    output << c;
+	}
+	input.close();
 
 }
 
@@ -634,6 +741,8 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 			userRolesOut << "\'" << 2 <<"\'\n"; //id
 			userRolesOut << ")\n GO \n\n";
 
+
+		//referees
 		fout << "INSERT INTO [dbo].[AspNetUsers] \n values \n(\n";
 		fout << "\'" << "referee" <<"\',\n"; //id
 		fout << "\'" <<"2000"<<"\',\n"; //ffa num
@@ -684,6 +793,58 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 				refereesOut << ")\n GO \n\n";
 
 		fout << "INSERT INTO [dbo].[AspNetUsers] \n values \n(\n";
+		fout << "\'" << "algorithm" <<"\',\n"; //id
+		fout << "\'" <<"10000"<<"\',\n"; //ffa num
+		fout << "\'" << "algorithm" <<"\',\n";//username
+		//password is always 'iamglen'
+		fout << "\'" <<"AMUiFUEhgvB6kzu5NUmEuRlE+0vT6iX/FechCHAcqgCT//qCo2WIDDPgBDOZ8MiyQQ=="<<"\',\n";
+		fout << "\'" <<"b12dd7f0-b991-4dd2-aac4-109d89b0275f"<<"\',\n";
+		fout << "\'" << "algorithm" <<"\',\n";
+		fout << "\'" << "algorithm" <<"\',\n";
+		fout << "\'" <<getRand(99999999,1000000)<<"\',\n";
+		fout << "\'" << "referee" << domains[getRand(6,0)]<<"\',\n";
+		fout << "\'" <<"~\\userprofile\\default.png"<<"\',\n";
+		fout << "\'" <<"ApplicationUser"<<"\',\n";
+		fout << "\'" <<"Australia"<<"\',\n";
+		fout << "\'" <<"2500"<<"\',\n"; //post code
+		fout << "\'" << getRand(100,1) << " " <<streets[getRand(49,0)]<<"\',\n"; //street+num
+		fout << "\'" << "Wollongong"<<"\',\n";
+		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
+		fout << "\'" <<createDOB()<<"\',\n";
+		fout << "\'"<< 0 <<"\',\n"; //isAdmin
+		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
+		fout << "\'"<< 1 <<"\',\n"; //isReferee
+		fout << "\'"<< 0 <<"\',\n"; 
+		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
+		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
+		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
+		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << 1<<"\'\n"; //is active
+		fout << ")\n GO \n\n";
+
+			userRolesOut << "INSERT INTO [dbo].[AspNetUserRoles] \n values \n(\n";
+			userRolesOut << "\'" << "algorithm" <<"\',\n"; //id
+			userRolesOut << "\'" << 3 <<"\'\n"; //id
+			userRolesOut << ")\n GO \n\n";
+
+				refereeIds.push_back(10000);
+				refereeUserNames.push_back("referee");
+				refereesOut << "INSERT INTO [dbo].[REFEREE] \n";
+				refereesOut << "(RefId, distTravel, sport, userId, maxGames, status, rating) \n";
+				refereesOut <<  "values \n(\n";
+				refereesOut << "\'" << 10000<<"\',\n"; //refId
+				refereesOut << "\'" << getRand(100, 0) <<"\',\n"; //disttravel
+				refereesOut << "\'" << "Soccer" <<"\',\n"; 
+				refereesOut << "\'" << "algorithm" <<"\',\n"; //userId
+				refereesOut << "\'" << getRand(4,1) <<"\',\n"; //maxGames
+				refereesOut << "\'" << 1 <<"\',\n"; //active
+				refereesOut << "\'" << getRand(4,1) <<"\'\n";//raiting
+				refereesOut << ")\n GO \n\n";
+
+
+
+		//organizer
+		fout << "INSERT INTO [dbo].[AspNetUsers] \n values \n(\n";
 		fout << "\'" << "organizer" <<"\',\n"; //id
 		fout << "\'" <<"1000"<<"\',\n"; //ffa num
 		fout << "\'" << "organizer" <<"\',\n";//username
@@ -727,7 +888,7 @@ int main(){
 
 	system( "mkdir \"./insertsRaw\"");
 
-	ofstream fout, userRolesOut, refereesOut, roles, locations, teams, matches, offers;
+	ofstream fout, userRolesOut, refereesOut, roles, locations, teams, matches, offers, qualifications;
 	userRolesOut.open("./insertsRaw/netUserRoles.sql");
 	fout.open("./insertsRaw/userAccounts.sql");
 	refereesOut.open("./insertsRaw/refereeData.sql");
@@ -736,12 +897,14 @@ int main(){
 	teams.open("./insertsRaw/teams.sql");
 	matches.open("./insertsRaw/matches.sql");
 	offers.open("./insertsRaw/offers.sql");
+	qualifications.open("./insertsRaw/qualifications.sql");
 
 	refereesOut << "SET IDENTITY_INSERT REFEREE ON  \n GO" << endl;
 	locations << "SET IDENTITY_INSERT LOCATION ON  \n GO" << endl;
 	teams << "SET IDENTITY_INSERT TEAM ON  \n GO" << endl;
 	matches << "SET IDENTITY_INSERT MATCH ON  \n GO" << endl;
 	offers << "SET IDENTITY_INSERT OFFER ON  \n GO" << endl;
+	qualifications << "SET IDENTITY_INSERT QUALIFICATIONS ON  \n GO" << endl;
 
 
 	addSpecialUsers(fout, userRolesOut, refereesOut);
@@ -860,6 +1023,9 @@ int main(){
 
 	generateTeams(teams, teamManagers);
 	generateMatches(matches, offers, refereeIds);
+	generateQualifications(qualifications);
+	generateOfferQualifications();
+	generateUserQualifications();
 
 	fout.close();
 	userRolesOut.close();
@@ -870,6 +1036,8 @@ int main(){
 	locations << "SET IDENTITY_INSERT LOCATION OFF \n GO" << endl;
 	matches << "SET IDENTITY_INSERT MATCH OFF \n GO" << endl;
 	offers << "SET IDENTITY_INSERT OFFER OFF \n GO" << endl;
+	qualifications << "SET IDENTITY_INSERT QUALIFICATIONS OFF  \n GO" << endl;
+
 
 
 	refereesOut.close();
@@ -877,6 +1045,7 @@ int main(){
 	teams.close();
 	matches.close();
 	offers.close();
+	qualifications.close();
 
 
 	generateSingleScript();
