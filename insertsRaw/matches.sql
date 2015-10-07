@@ -5,16 +5,17 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '1',
-'2015/10/3 9:00:00 AM',
-'2',
-'15',
-'9',
+'2015/10/3 11:30:00 AM',
+'7',
+'12',
+'17',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -23,16 +24,17 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '2',
-'2015/10/3 11:30:00 AM',
-'7',
-'10',
-'4',
+'2015/10/3 4:30:00 PM',
+'2',
+'19',
+'8',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -41,142 +43,17 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '3',
-'2015/10/3 11:30:00 AM',
-'6',
+'2015/10/3 4:30:00 PM',
 '7',
-'8',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'4',
-'2015/10/3 2:00:00 PM',
-'7',
-'14',
-'4',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'5',
-'2015/10/3 11:30:00 AM',
-'10',
-'7',
-'13',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'6',
-'2015/10/3 11:30:00 AM',
-'6',
-'13',
-'12',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'7',
-'2015/10/3 9:00:00 AM',
 '2',
-'5',
-'1',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'8',
-'2015/10/3 2:00:00 PM',
-'9',
-'2',
-'8',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'9',
-'2015/10/3 9:00:00 AM',
-'5',
-'11',
-'12',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'10',
-'2015/10/3 2:00:00 PM',
-'6',
 '3',
-'11',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -184,17 +61,56 @@ INSERT INTO [dbo].[MATCH]
 (matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
 values 
 (
-'11',
-'2015/10/3 11:30:00 AM',
+'4',
+'2015/10/3 9:00:00 AM',
 '8',
-'12',
+'19',
+'20',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'5',
+'2015/10/3 4:30:00 PM',
+'3',
+'18',
+'6',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'6',
+'2015/10/3 9:00:00 AM',
+'5',
+'16',
 '2',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -202,17 +118,113 @@ INSERT INTO [dbo].[MATCH]
 (matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
 values 
 (
-'12',
+'7',
+'2015/10/3 4:30:00 PM',
+'3',
+'3',
+'2',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'8',
+'2015/10/3 11:30:00 AM',
+'4',
+'3',
+'9',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'9',
 '2015/10/3 9:00:00 AM',
-'10',
-'19',
+'7',
+'2',
 '4',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'10',
+'2015/10/3 4:30:00 PM',
+'7',
+'12',
+'4',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'11',
+'2015/10/3 4:30:00 PM',
+'7',
+'20',
+'18',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'12',
+'2015/10/3 11:30:00 AM',
+'4',
+'14',
+'19',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
 )
  GO 
 
@@ -221,34 +233,36 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '13',
+'2015/10/3 2:00:00 PM',
+'8',
+'7',
+'16',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'14',
 '2015/10/3 9:00:00 AM',
 '10',
 '12',
-'14',
+'10',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'14',
-'2015/10/3 11:30:00 AM',
-'8',
-'13',
-'15',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -257,34 +271,36 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '15',
+'2015/10/3 2:00:00 PM',
+'6',
+'7',
+'2',
+'0',
+'0',
+'0',
+'1',
+'90',
+'30',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[MATCH] 
+(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
+values 
+(
+'16',
 '2015/10/3 11:30:00 AM',
+'7',
+'17',
 '3',
-'19',
-'16',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
-)
- GO 
-
-INSERT INTO [dbo].[MATCH] 
-(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) 
-values 
-(
-'16',
-'2015/10/3 11:30:00 AM',
-'8',
-'19',
-'16',
-'0',
-'0',
-'0',
-'1',
-'90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -294,15 +310,16 @@ values
 (
 '17',
 '2015/10/3 2:00:00 PM',
-'5',
-'5',
-'1',
+'6',
+'11',
+'14',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -311,16 +328,17 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '18',
-'2015/10/3 4:30:00 PM',
-'4',
-'6',
-'13',
+'2015/10/3 11:30:00 AM',
+'7',
+'16',
+'17',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -330,15 +348,16 @@ values
 (
 '19',
 '2015/10/3 4:30:00 PM',
-'1',
-'17',
-'20',
+'6',
+'5',
+'6',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 
@@ -347,16 +366,17 @@ INSERT INTO [dbo].[MATCH]
 values 
 (
 '20',
-'2015/10/3 9:00:00 AM',
-'4',
-'5',
-'6',
+'2015/10/3 11:30:00 AM',
+'2',
+'16',
+'17',
 '0',
 '0',
 '0',
 '1',
 '90',
-'30'
+'30',
+'1'
 )
  GO 
 

@@ -6,13 +6,13 @@ values
 (
 '1',
 'glens field',
-'548',
-'68 ills Street',
+'166',
+'65 Woerdens Road',
 'Wollongong',
-'4239',
-'75406901',
+'9357',
+'88256630',
 'Australia',
-'NSW',
+'NT',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -24,11 +24,11 @@ values
 (
 '2',
 'collegens field',
-'9',
-'50 Saggers Road',
+'557',
+'21 Bayfield Street',
 'Wollongong',
-'6609',
-'62478321',
+'7922',
+'40470251',
 'Australia',
 'QLD',
 '1',
@@ -42,29 +42,11 @@ values
 (
 '3',
 'steel field',
-'922',
-'84 Lane Street',
+'529',
+'21 Nandewar Street',
 'Wollongong',
-'1197',
-'59108302',
-'Australia',
-'SA',
-'1',
-geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
-)
- GO 
-
-INSERT INTO [dbo].[LOCATION] 
- (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
-values 
-(
-'4',
-'grass knowles',
-'929',
-'9 Villeneuve Street',
-'Wollongong',
-'1517',
-'99580326',
+'5973',
+'26396710',
 'Australia',
 'ACT',
 '1',
@@ -76,49 +58,13 @@ INSERT INTO [dbo].[LOCATION]
  (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
 values 
 (
-'5',
-'locks field',
-'445',
-'2 Taylor Street',
+'4',
+'grass knowles',
+'248',
+'70 Oriana Street',
 'Wollongong',
-'6200',
-'109650401',
-'Australia',
-'VIC',
-'1',
-geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
-)
- GO 
-
-INSERT INTO [dbo].[LOCATION] 
- (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
-values 
-(
-'6',
-'cirpus paddock',
-'235',
-'68 McLeans Road',
-'Wollongong',
-'3604',
-'77998247',
-'Australia',
-'NT',
-'1',
-geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
-)
- GO 
-
-INSERT INTO [dbo].[LOCATION] 
- (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
-values 
-(
-'7',
-'middle field',
-'735',
-'30 Taylor Street',
-'Wollongong',
-'2758',
-'104681561',
+'9410',
+'28695466',
 'Australia',
 'QLD',
 '1',
@@ -130,13 +76,13 @@ INSERT INTO [dbo].[LOCATION]
  (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
 values 
 (
-'8',
-'first field',
-'579',
-'44 Webb Road',
+'5',
+'locks field',
+'354',
+'74 Bayview Road',
 'Wollongong',
-'3009',
-'51845580',
+'1160',
+'73122560',
 'Australia',
 'NSW',
 '1',
@@ -148,13 +94,49 @@ INSERT INTO [dbo].[LOCATION]
  (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
 values 
 (
-'9',
-'last field',
-'939',
-'13 Southwell Crescent',
+'6',
+'cirpus paddock',
+'794',
+'69 Jacolite Street',
 'Wollongong',
-'3447',
-'27405894',
+'1742',
+'93790547',
+'Australia',
+'SA',
+'1',
+geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
+)
+ GO 
+
+INSERT INTO [dbo].[LOCATION] 
+ (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
+values 
+(
+'7',
+'middle field',
+'274',
+'33 Elizabeth Street',
+'Wollongong',
+'10326',
+'107187149',
+'Australia',
+'VIC',
+'1',
+geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
+)
+ GO 
+
+INSERT INTO [dbo].[LOCATION] 
+ (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
+values 
+(
+'8',
+'first field',
+'868',
+'46 Lane Street',
+'Wollongong',
+'6656',
+'97394626',
 'Australia',
 'TAS',
 '1',
@@ -166,15 +148,33 @@ INSERT INTO [dbo].[LOCATION]
  (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
 values 
 (
-'10',
-'main field',
-'6',
-'87 McPherson Road',
+'9',
+'last field',
+'68',
+'18 Lane Street',
 'Wollongong',
-'2057',
-'44332252',
+'3084',
+'55922914',
 'Australia',
 'VIC',
+'1',
+geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
+)
+ GO 
+
+INSERT INTO [dbo].[LOCATION] 
+ (locationId, name, price, street, city, postcode, phoneNum, country, state, status, geogCol1) 
+values 
+(
+'10',
+'main field',
+'323',
+'34 Tooraweenah Road',
+'Wollongong',
+'8066',
+'36464062',
+'Australia',
+'ACT',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
