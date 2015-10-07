@@ -10,6 +10,7 @@ admin:iamglen
 player:iamglen
 referee:iamglen
 organizer:iamglen
+everyone is glen
 
 
 things that are not filled with this:
