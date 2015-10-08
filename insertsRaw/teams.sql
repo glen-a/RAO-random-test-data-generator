@@ -5,22 +5,7 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '1',
-'CheapWomen',
-'16',
-'4',
-'Soccer',
-'37',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'2',
-'VenomousDog',
+'KindheartedTable',
 '16',
 '4',
 'Soccer',
@@ -34,12 +19,27 @@ INSERT INTO [dbo].[TEAM]
  (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
 values 
 (
-'3',
-'soulfulElephant',
+'2',
+'KindheartedDog',
 '16',
 '4',
 'Soccer',
-'97',
+'11',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'3',
+'SableRope',
+'16',
+'4',
+'Soccer',
+'98',
 null,
 '1'
 )
@@ -50,11 +50,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '4',
-'CheapRope',
+'CheapChair',
 '16',
 '4',
 'Soccer',
-'23',
+'52',
 null,
 '1'
 )
@@ -65,202 +65,7 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '5',
-'soulfulAnteater',
-'16',
-'4',
-'Soccer',
-'20',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'6',
-'UnsightlyFire',
-'16',
-'4',
-'Soccer',
-'97',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'7',
-'greyString',
-'16',
-'4',
-'Soccer',
-'38',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'8',
-'VenomousComputer',
-'16',
-'4',
-'Soccer',
-'24',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'9',
-'SleepyWombat',
-'16',
-'4',
-'Soccer',
-'63',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'10',
-'SableString',
-'16',
-'4',
-'Soccer',
-'88',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'11',
-'rabbitChair',
-'16',
-'4',
-'Soccer',
-'56',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'12',
-'HealthyRope',
-'16',
-'4',
-'Soccer',
-'94',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'13',
-'wildElephant',
-'16',
-'4',
-'Soccer',
-'38',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'14',
-'soulfulPaper',
-'16',
-'4',
-'Soccer',
-'43',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'15',
-'UnsightlyCat',
-'16',
-'4',
-'Soccer',
-'37',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'16',
-'VenomousAir',
-'16',
-'4',
-'Soccer',
-'63',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'17',
-'ElegantWombat',
-'16',
-'4',
-'Soccer',
-'25',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'18',
-'wildWolf',
+'rabbitPaper',
 '16',
 '4',
 'Soccer',
@@ -274,12 +79,207 @@ INSERT INTO [dbo].[TEAM]
  (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
 values 
 (
-'19',
-'wileyWomen',
+'6',
+'greyWombat',
 '16',
 '4',
 'Soccer',
+'27',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'7',
+'KindheartedElephant',
 '16',
+'4',
+'Soccer',
+'64',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'8',
+'UnbiasedWater',
+'16',
+'4',
+'Soccer',
+'3',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'9',
+'UnbiasedAir',
+'16',
+'4',
+'Soccer',
+'61',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'10',
+'greyRope',
+'16',
+'4',
+'Soccer',
+'77',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'11',
+'rabbitFish',
+'16',
+'4',
+'Soccer',
+'18',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'12',
+'UnderstoodWater',
+'16',
+'4',
+'Soccer',
+'8',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'13',
+'ElegantComputer',
+'16',
+'4',
+'Soccer',
+'97',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'14',
+'KindheartedChair',
+'16',
+'4',
+'Soccer',
+'29',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'15',
+'ElegantCat',
+'16',
+'4',
+'Soccer',
+'90',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'16',
+'MaliciousRope',
+'16',
+'4',
+'Soccer',
+'52',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'17',
+'UnbiasedMen',
+'16',
+'4',
+'Soccer',
+'70',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'18',
+'MercifulFish',
+'16',
+'4',
+'Soccer',
+'64',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'19',
+'ElegantFish',
+'16',
+'4',
+'Soccer',
+'72',
 null,
 '1'
 )
@@ -290,11 +290,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '20',
-'hotElephant',
+'DefeatedString',
 '16',
 '4',
 'Soccer',
-'67',
+'78',
 null,
 '1'
 )

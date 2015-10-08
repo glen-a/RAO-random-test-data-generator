@@ -2,7 +2,7 @@ INSERT INTO [dbo].[USERQUAL] values
 (
 '1',
 '1000',
-'1'
+'2'
 )
  GO 
 
@@ -17,15 +17,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'73657069',
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[USERQUAL] values 
-(
-'1',
-'23374422',
+'52659401',
 '3'
 )
  GO 
@@ -33,15 +25,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'2302786',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[USERQUAL] values 
-(
-'1',
-'35624491',
+'93670006',
 '2'
 )
  GO 
@@ -49,7 +33,15 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'16930911',
+'49885636',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[USERQUAL] values 
+(
+'1',
+'13871762',
 '2'
 )
  GO 
@@ -57,7 +49,15 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'27876716',
+'23686270',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[USERQUAL] values 
+(
+'1',
+'79468650',
 '2'
 )
  GO 
@@ -65,7 +65,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'76307121',
+'22321823',
 '3'
 )
  GO 
@@ -73,15 +73,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'79824691',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[USERQUAL] values 
-(
-'1',
-'26899884',
+'31200951',
 '1'
 )
  GO 
@@ -89,7 +81,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'3749457',
+'51279138',
 '1'
 )
  GO 
@@ -97,7 +89,7 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'32383327',
+'11450060',
 '1'
 )
  GO 
@@ -105,16 +97,32 @@ INSERT INTO [dbo].[USERQUAL] values
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'16285550',
-'3'
+'38946519',
+'1'
 )
  GO 
 
 INSERT INTO [dbo].[USERQUAL] values 
 (
 '1',
-'44785424',
+'53005727',
 '1'
+)
+ GO 
+
+INSERT INTO [dbo].[USERQUAL] values 
+(
+'1',
+'51888603',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[USERQUAL] values 
+(
+'1',
+'8353375',
+'2'
 )
  GO 
 

@@ -1,15 +1,7 @@
 INSERT INTO [dbo].[OFFERQUAL] values 
 (
 '1',
-'14230',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'92310',
+'80234',
 '2'
 )
  GO 
@@ -17,7 +9,47 @@ INSERT INTO [dbo].[OFFERQUAL] values
 INSERT INTO [dbo].[OFFERQUAL] values 
 (
 '1',
-'11127',
+'60217',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFERQUAL] values 
+(
+'1',
+'55678',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFERQUAL] values 
+(
+'1',
+'58141',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFERQUAL] values 
+(
+'1',
+'42953',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFERQUAL] values 
+(
+'1',
+'42076',
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFERQUAL] values 
+(
+'1',
+'67205',
 '2'
 )
  GO 
@@ -25,15 +57,7 @@ INSERT INTO [dbo].[OFFERQUAL] values
 INSERT INTO [dbo].[OFFERQUAL] values 
 (
 '1',
-'67772',
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'65369',
+'48686',
 '3'
 )
  GO 
@@ -41,15 +65,7 @@ INSERT INTO [dbo].[OFFERQUAL] values
 INSERT INTO [dbo].[OFFERQUAL] values 
 (
 '1',
-'27259',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'25721',
+'82630',
 '1'
 )
  GO 
@@ -57,39 +73,7 @@ INSERT INTO [dbo].[OFFERQUAL] values
 INSERT INTO [dbo].[OFFERQUAL] values 
 (
 '1',
-'79273',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'98662',
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'70417',
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'28242',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[OFFERQUAL] values 
-(
-'1',
-'63233',
+'68013',
 '3'
 )
  GO 

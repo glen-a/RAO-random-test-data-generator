@@ -41,16 +41,8 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'2',
+'6',
 '3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'5',
-'2'
 )
  GO 
 
@@ -65,7 +57,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'8',
+'7',
 '2'
 )
  GO 
@@ -73,23 +65,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'10',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'11',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'11',
+'9',
 '2'
 )
  GO 
@@ -98,7 +74,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '12',
-'3'
+'2'
 )
  GO 
 
@@ -106,14 +82,6 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '13',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'14',
 '2'
 )
  GO 
@@ -121,15 +89,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'17',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'18',
+'16',
 '3'
 )
  GO 
@@ -137,7 +97,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'18',
+'16',
 '2'
 )
  GO 
@@ -146,7 +106,23 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '19',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'20',
 '2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'22',
+'3'
 )
  GO 
 
@@ -161,31 +137,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'26',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'27',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
 '28',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'33',
 '2'
 )
  GO 
@@ -194,14 +146,14 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '34',
-'2'
+'3'
 )
  GO 
 
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'36',
+'38',
 '2'
 )
  GO 
@@ -210,7 +162,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '39',
-'2'
+'3'
 )
  GO 
 
@@ -218,6 +170,14 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '40',
+'2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'42',
 '2'
 )
  GO 
@@ -257,7 +217,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'48',
+'54',
 '2'
 )
  GO 
@@ -265,7 +225,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'49',
+'57',
 '2'
 )
  GO 
@@ -273,7 +233,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'51',
+'59',
 '2'
 )
  GO 
@@ -281,7 +241,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'53',
+'62',
 '3'
 )
  GO 
@@ -289,7 +249,15 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'58',
+'63',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'66',
 '2'
 )
  GO 
@@ -297,23 +265,15 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'60',
-'2'
+'67',
+'3'
 )
  GO 
 
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'61',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'64',
+'68',
 '2'
 )
  GO 
@@ -329,7 +289,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'76',
+'74',
 '2'
 )
  GO 
@@ -337,8 +297,8 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'78',
-'2'
+'75',
+'3'
 )
  GO 
 
@@ -346,7 +306,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '79',
-'3'
+'2'
 )
  GO 
 
@@ -377,22 +337,6 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'84',
-'3'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
-'84',
-'2'
-)
- GO 
-
-INSERT INTO [dbo].[AspNetUserRoles] 
- values 
-(
 '85',
 '2'
 )
@@ -402,7 +346,15 @@ INSERT INTO [dbo].[AspNetUserRoles]
  values 
 (
 '86',
-'3'
+'2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'88',
+'2'
 )
  GO 
 
@@ -417,7 +369,7 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'90',
+'92',
 '3'
 )
  GO 
@@ -425,7 +377,47 @@ INSERT INTO [dbo].[AspNetUserRoles]
 INSERT INTO [dbo].[AspNetUserRoles] 
  values 
 (
-'98',
+'92',
+'2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'93',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'93',
+'2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'94',
+'3'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'95',
+'2'
+)
+ GO 
+
+INSERT INTO [dbo].[AspNetUserRoles] 
+ values 
+(
+'96',
 '2'
 )
  GO 

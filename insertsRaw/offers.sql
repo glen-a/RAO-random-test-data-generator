@@ -4,9 +4,9 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'14230',
+'80234',
 'Soccer',
-'4',
+'8',
 '10000',
 '4',
 '2015/9/11',
@@ -20,9 +20,25 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'92310',
+'60217',
 'Soccer',
+'9',
+'10000',
 '4',
+'2015/9/11',
+null,
+'5',
+'Referee'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFER] 
+ (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
+values 
+(
+'55678',
+'Soccer',
+'9',
 '10000',
 '4',
 '2015/9/11',
@@ -36,89 +52,9 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'11127',
+'58141',
 'Soccer',
-'6',
-'10000',
-'4',
-'2015/9/11',
-null,
-'5',
-'Referee'
-)
- GO 
-
-INSERT INTO [dbo].[OFFER] 
- (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
-values 
-(
-'67772',
-'Soccer',
-'10',
-'10000',
-'4',
-'2015/9/11',
-null,
-'5',
-'Referee'
-)
- GO 
-
-INSERT INTO [dbo].[OFFER] 
- (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
-values 
-(
-'65369',
-'Soccer',
-'10',
-'10000',
-'4',
-'2015/9/11',
-null,
-'5',
-'Referee Assistant 1'
-)
- GO 
-
-INSERT INTO [dbo].[OFFER] 
- (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
-values 
-(
-'27259',
-'Soccer',
-'11',
-'10000',
-'4',
-'2015/9/11',
-null,
-'5',
-'Referee'
-)
- GO 
-
-INSERT INTO [dbo].[OFFER] 
- (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
-values 
-(
-'25721',
-'Soccer',
-'11',
-'10000',
-'4',
-'2015/9/11',
-null,
-'5',
-'Referee Assistant 1'
-)
- GO 
-
-INSERT INTO [dbo].[OFFER] 
- (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
-values 
-(
-'79273',
-'Soccer',
-'11',
+'9',
 '10000',
 '4',
 '2015/9/11',
@@ -132,9 +68,9 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'98662',
+'42953',
 'Soccer',
-'14',
+'11',
 '10000',
 '4',
 '2015/9/11',
@@ -148,7 +84,39 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'70417',
+'42076',
+'Soccer',
+'13',
+'10000',
+'4',
+'2015/9/11',
+null,
+'5',
+'Referee'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFER] 
+ (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
+values 
+(
+'67205',
+'Soccer',
+'13',
+'10000',
+'4',
+'2015/9/11',
+null,
+'5',
+'Referee Assistant 1'
+)
+ GO 
+
+INSERT INTO [dbo].[OFFER] 
+ (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
+values 
+(
+'48686',
 'Soccer',
 '18',
 '10000',
@@ -164,7 +132,7 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'28242',
+'82630',
 'Soccer',
 '18',
 '10000',
@@ -180,15 +148,15 @@ INSERT INTO [dbo].[OFFER]
  (offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) 
 values 
 (
-'63233',
+'68013',
 'Soccer',
-'18',
+'19',
 '10000',
 '4',
 '2015/9/11',
 null,
 '5',
-'Referee Assistant 2'
+'Referee'
 )
  GO 
 

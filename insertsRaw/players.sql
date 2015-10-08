@@ -1,4 +1,4 @@
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -9,7 +9,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -20,7 +20,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -31,7 +31,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -42,7 +42,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -53,7 +53,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -64,7 +64,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -75,7 +75,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -86,7 +86,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -97,7 +97,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '1',
@@ -108,7 +108,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -119,7 +119,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -130,7 +130,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -141,7 +141,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -152,7 +152,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -163,7 +163,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -174,7 +174,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -185,7 +185,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -196,7 +196,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '2',
@@ -207,7 +207,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -218,7 +218,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -229,7 +229,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -240,7 +240,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -251,7 +251,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -262,7 +262,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -273,7 +273,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -284,7 +284,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -295,7 +295,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '3',
@@ -306,7 +306,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -317,7 +317,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -328,7 +328,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -339,7 +339,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -350,7 +350,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -361,7 +361,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -372,7 +372,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -383,7 +383,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -394,7 +394,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '4',
@@ -405,7 +405,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -416,7 +416,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -427,7 +427,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -438,7 +438,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -449,7 +449,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -460,7 +460,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -471,7 +471,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -482,7 +482,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -493,7 +493,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '5',
@@ -504,7 +504,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -515,7 +515,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -526,7 +526,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -537,7 +537,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -548,7 +548,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -559,7 +559,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -570,7 +570,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -581,7 +581,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -592,7 +592,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '6',
@@ -603,7 +603,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -614,7 +614,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -625,7 +625,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -636,7 +636,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -647,7 +647,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -658,7 +658,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -669,7 +669,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -680,7 +680,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -691,7 +691,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '7',
@@ -702,7 +702,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -713,7 +713,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -724,7 +724,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -735,7 +735,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -746,7 +746,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -757,7 +757,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -768,7 +768,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -779,7 +779,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -790,7 +790,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '8',
@@ -801,7 +801,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -812,7 +812,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -823,7 +823,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -834,7 +834,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -845,7 +845,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -856,7 +856,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -867,7 +867,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -878,7 +878,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -889,7 +889,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '9',
@@ -900,7 +900,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -911,7 +911,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -922,7 +922,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -933,7 +933,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -944,7 +944,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -955,7 +955,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -966,7 +966,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -977,7 +977,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -988,7 +988,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '10',
@@ -999,7 +999,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1010,7 +1010,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1021,7 +1021,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1032,7 +1032,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1043,7 +1043,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1054,7 +1054,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1065,7 +1065,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1076,7 +1076,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1087,7 +1087,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '11',
@@ -1098,7 +1098,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1109,7 +1109,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1120,7 +1120,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1131,7 +1131,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1142,7 +1142,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1153,7 +1153,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1164,7 +1164,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1175,7 +1175,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1186,7 +1186,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '12',
@@ -1197,7 +1197,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1208,7 +1208,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1219,7 +1219,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1230,7 +1230,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1241,7 +1241,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1252,7 +1252,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1263,7 +1263,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1274,7 +1274,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1285,7 +1285,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '13',
@@ -1296,7 +1296,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1307,7 +1307,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1318,7 +1318,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1329,7 +1329,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1340,7 +1340,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1351,7 +1351,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1362,7 +1362,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1373,7 +1373,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1384,7 +1384,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '14',
@@ -1395,7 +1395,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1406,7 +1406,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1417,7 +1417,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1428,7 +1428,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1439,7 +1439,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1450,7 +1450,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1461,7 +1461,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1472,7 +1472,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1483,7 +1483,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '15',
@@ -1494,7 +1494,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1505,7 +1505,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1516,7 +1516,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1527,7 +1527,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1538,7 +1538,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1549,7 +1549,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1560,7 +1560,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1571,7 +1571,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1582,7 +1582,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '16',
@@ -1593,7 +1593,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1604,7 +1604,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1615,7 +1615,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1626,7 +1626,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1637,7 +1637,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1648,7 +1648,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1659,7 +1659,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1670,7 +1670,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1681,7 +1681,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '17',
@@ -1692,7 +1692,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1703,7 +1703,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1714,7 +1714,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1725,7 +1725,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1736,7 +1736,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1747,7 +1747,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1758,7 +1758,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1769,7 +1769,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1780,7 +1780,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '18',
@@ -1791,7 +1791,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1802,7 +1802,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1813,7 +1813,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1824,7 +1824,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1835,7 +1835,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1846,7 +1846,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1857,7 +1857,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1868,7 +1868,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1879,7 +1879,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '19',
@@ -1890,7 +1890,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1901,7 +1901,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1912,7 +1912,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1923,7 +1923,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1934,7 +1934,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1945,7 +1945,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1956,7 +1956,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1967,7 +1967,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1978,7 +1978,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '20',
@@ -1989,7 +1989,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2000,7 +2000,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2011,7 +2011,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2022,7 +2022,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2033,7 +2033,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2044,7 +2044,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2055,7 +2055,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2066,7 +2066,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2077,7 +2077,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '21',
@@ -2088,7 +2088,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2099,7 +2099,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2110,7 +2110,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2121,7 +2121,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2132,7 +2132,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2143,7 +2143,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2154,7 +2154,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2165,7 +2165,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',
@@ -2176,7 +2176,7 @@ null,
 )
  GO 
 
-INSERT INTO [dbo].[WEEKLYAVAILABILITY] 
+INSERT INTO [dbo].[PLAYER] 
  values 
 (
 '22',

@@ -11,7 +11,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -21,7 +20,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '2',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -47,7 +45,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -57,7 +54,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '4',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -83,7 +79,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -93,7 +88,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '6',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -119,7 +113,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -129,7 +122,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '8',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -155,7 +147,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -165,7 +156,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '10',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -191,7 +181,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -201,7 +190,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '12',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -227,7 +215,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -237,7 +224,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '14',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -263,7 +249,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -273,7 +258,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '16',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -299,7 +283,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -309,7 +292,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '18',
 '1',
-'0',
 '0',
 '0',
 '0',
@@ -335,7 +317,6 @@ INSERT INTO [dbo].[TEAMINS]
 '0',
 '0',
 '0',
-'0',
 '1'
 )
  GO 
@@ -345,7 +326,6 @@ INSERT INTO [dbo].[TEAMINS]
 (
 '20',
 '1',
-'0',
 '0',
 '0',
 '0',

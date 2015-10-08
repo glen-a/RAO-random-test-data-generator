@@ -467,7 +467,6 @@ void generateTeams(ofstream &teams, vector<int> users){
 		teamIns << "\'" << 0 <<"\',\n";
 		teamIns << "\'" << 0 <<"\',\n";
 		teamIns << "\'" << 0 <<"\',\n";
-		teamIns << "\'" << 0 <<"\',\n";
 		teamIns << "\'" << 1 <<"\'\n";
 		teamIns << ")\n GO \n\n";
 	} 
@@ -504,10 +503,9 @@ void generateOffer(int matchId, ofstream &offers, vector<int> refereeIds, int j)
 
 
 	offers << "INSERT INTO [dbo].[OFFER] \n ";
-	offers << "(offerId, sport, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) \n";
+	offers << "(offerId, matchId, refId, status, dateOfOffer, declinedReason, priority, typeOfOffer) \n";
 	offers <<  "values \n(\n";
 	offers << "\'" << offerId <<"\',\n"; //offer id
-	offers << "\'" << "Soccer"<<"\',\n";
 	offers << "\'" << matchId <<"\',\n";
 	offers << "\'" << refereeIds.at(getRand(refereeIds.size(),0)) <<"\',\n"; //ref id
 	offers << "\'" << 3 <<"\',\n"; //status
@@ -550,7 +548,7 @@ void generateMatches(ofstream &matches, ofstream &offers, vector<int> refereeIds
 		}
 
 		matches << "INSERT INTO [dbo].[MATCH] \n";
-		matches << "(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration) \n";
+		matches << "(matchId, matchDate, locationId, teamAId, teamBId, teamAScore, teamBScore, status, tournamentId, matchLength, halfTimeDuration, countsToDraw) \n";
 		matches <<  "values \n(\n";	
 
 		matches << "\'" << i+1 <<"\',\n"; 
@@ -609,7 +607,7 @@ void generatePlayers(ofstream &players){
 	int counter = 1;
 	for(int i=1, j=1;i<200;i++, j++){
 
-		players << "INSERT INTO [dbo].[WEEKLYAVAILABILITY] \n values \n(\n";
+		players << "INSERT INTO [dbo].[PLAYER] \n values \n(\n";
 		players << "\'" << counter <<"\',\n"; //monday
 		players << "\'" << i+100 <<"\',\n"; //
 		players << "" << "null" <<",\n"; //
@@ -862,14 +860,12 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
-		fout << "\'"<< 1 <<"\',\n"; //isAdmin
-		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
-		fout << "\'"<< 0 <<"\',\n"; //isReferee
-		fout << "\'"<< 0 <<"\',\n"; 
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
 		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << isReferee(10,0,5) <<"\',\n"; //receiveTexts
 		fout << "\'" << 1<<"\'\n"; //is active
 		fout << ")\n GO \n\n";
 
@@ -901,10 +897,12 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
 		fout << "\'"<< 0 <<"\',\n"; //isReferee
 		fout << "\'"<< 1 <<"\',\n"; 
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
 		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << isReferee(10,0,5) <<"\',\n"; //receiveTexts
 		fout << "\'" << 1<<"\'\n"; //is active
 		fout << ")\n GO \n\n";
 
@@ -934,14 +932,12 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
-		fout << "\'"<< 0 <<"\',\n"; //isAdmin
-		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
-		fout << "\'"<< 1 <<"\',\n"; //isReferee
-		fout << "\'"<< 0 <<"\',\n"; 
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
 		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << isReferee(10,0,5) <<"\',\n"; //receive texts
 		fout << "\'" << 1<<"\'\n"; //is active
 		fout << ")\n GO \n\n";
 
@@ -953,11 +949,10 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 				refereeIds.push_back(1000);
 				refereeUserNames.push_back("referee");
 				refereesOut << "INSERT INTO [dbo].[REFEREE] \n";
-				refereesOut << "(RefId, distTravel, sport, userId, maxGames, status, rating) \n";
+				refereesOut << "(RefId, distTravel, userId, maxGames, status, rating) \n";
 				refereesOut <<  "values \n(\n";
 				refereesOut << "\'" << 1000<<"\',\n"; //refId
 				refereesOut << "\'" << getRand(100, 0) <<"\',\n"; //disttravel
-				refereesOut << "\'" << "Soccer" <<"\',\n"; 
 				refereesOut << "\'" << "referee" <<"\',\n"; //userId
 				refereesOut << "\'" << getRand(4,1) <<"\',\n"; //maxGames
 				refereesOut << "\'" << 1 <<"\',\n"; //active
@@ -983,14 +978,12 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
-		fout << "\'"<< 0 <<"\',\n"; //isAdmin
-		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
-		fout << "\'"<< 1 <<"\',\n"; //isReferee
-		fout << "\'"<< 0 <<"\',\n"; 
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
 		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << isReferee(10,0,5) <<"\',\n"; //texts
 		fout << "\'" << 1<<"\'\n"; //is active
 		fout << ")\n GO \n\n";
 
@@ -1035,14 +1028,12 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
-		fout << "\'"<< 0 <<"\',\n"; //isAdmin
-		fout << "\'"<< 1 <<"\',\n"; //isOrganizer
-		fout << "\'"<< 0 <<"\',\n"; //isReferee
-		fout << "\'"<< 0 <<"\',\n"; 
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
 		fout << "\'" << isReferee(10,0,5)<<"\',\n"; //SHOWEMAIL
+		fout << "\'" << isReferee(10,0,5) <<"\',\n"; //texts
 		fout << "\'" << 1<<"\'\n"; //is active
 		fout << ")\n GO \n\n";
 
@@ -1127,6 +1118,7 @@ int main(){
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
@@ -1148,11 +1140,10 @@ int main(){
 					refereeIds.push_back(refId);
 					refereeUserNames.push_back(userName);
 					refereesOut << "INSERT INTO [dbo].[REFEREE] \n";
-					refereesOut << "(RefId, distTravel, sport, userId, maxGames, status, rating) \n";
+					refereesOut << "(RefId, distTravel, userId, maxGames, status, rating) \n";
 					refereesOut <<  "values \n(\n";
 					refereesOut << "\'" << refId<<"\',\n"; //refId
 					refereesOut << "\'" << getRand(100, 0) <<"\',\n"; //disttravel
-					refereesOut << "\'" << "Soccer" <<"\',\n"; 
 					refereesOut << "\'" << userId <<"\',\n"; //userId
 					refereesOut << "\'" << getRand(4,1) <<"\',\n"; //maxGames
 					refereesOut << "\'" << 1 <<"\',\n"; //active
@@ -1214,6 +1205,7 @@ int main(){
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
+		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB
 		fout << "\'" << isReferee(10,0,3)<<"\',\n"; //showADDRESS
