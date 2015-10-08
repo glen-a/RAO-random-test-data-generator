@@ -699,7 +699,7 @@ void generateSingleScript(){
 	output << "SET IDENTITY_INSERT TOURNAMENT ON  \n GO" << endl;
 
 	output << "INSERT INTO [dbo].[TOURNAMENT] \n ";
-	output << "(tournamentId, name, startDate, organizer, ageBracket, grade, sport, status, priority) \n";
+	output << "(tournamentId, name, startDate, organizer, ageBracket, grade, gender, sport, status, priority) \n";
 	output <<  "values \n(\n";	
 	output << "\'" << 1 <<"\',\n"; //id
 	output << "\'" << "angsty teen league" <<"\',\n"; // name
@@ -893,10 +893,6 @@ void addSpecialUsers(ofstream &fout, ofstream &userRolesOut, ofstream &refereesO
 		fout << "\'" << "Wollongong"<<"\',\n";
 		fout << "\'" <<states[getRand(7,0)]<<"\',\n";
 		fout << "\'" <<createDOB()<<"\',\n";
-		fout << "\'"<< 0 <<"\',\n"; //isAdmin
-		fout << "\'"<< 0 <<"\',\n"; //isOrganizer
-		fout << "\'"<< 0 <<"\',\n"; //isReferee
-		fout << "\'"<< 1 <<"\',\n"; 
 		fout << "\'" << 3 <<"\',\n"; //gender
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //share phone
 		fout << "\'" << isReferee(10,0,4)<<"\',\n"; //showDOB

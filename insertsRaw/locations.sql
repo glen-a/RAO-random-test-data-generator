@@ -6,13 +6,13 @@ values
 (
 '1',
 'glens field',
-'902',
-'9 Southwell Crescent',
+'969',
+'28 Webb Road',
 'Wollongong',
-'5284',
-'91636072',
+'6736',
+'15396494',
 'Australia',
-'NT',
+'NSW',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -24,13 +24,13 @@ values
 (
 '2',
 'collegens field',
-'325',
-'79 Flinstone Drive',
+'650',
+'88 Elizabeth Street',
 'Wollongong',
-'7350',
-'89468275',
+'2159',
+'93690014',
 'Australia',
-'VIC',
+'ACT',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -42,13 +42,13 @@ values
 (
 '3',
 'steel field',
-'151',
-'78 Jacolite Street',
+'819',
+'26 Seaview Court',
 'Wollongong',
-'9104',
-'37681625',
+'4676',
+'88822195',
 'Australia',
-'TAS',
+'SA',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -60,13 +60,13 @@ values
 (
 '4',
 'grass knowles',
-'677',
-'86 Webb Road',
+'319',
+'92 Halsey Road',
 'Wollongong',
-'10168',
-'45462700',
+'9234',
+'15280113',
 'Australia',
-'VIC',
+'TAS',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -78,13 +78,13 @@ values
 (
 '5',
 'locks field',
-'450',
-'8 Oriana Street',
+'887',
+'61 Lane Street',
 'Wollongong',
-'10479',
-'17608455',
+'7148',
+'62169407',
 'Australia',
-'ACT',
+'QLD',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -96,13 +96,13 @@ values
 (
 '6',
 'cirpus paddock',
-'420',
-'12 Beach Street',
+'809',
+'34 Endeavour Drive',
 'Wollongong',
-'2749',
-'60210067',
+'3954',
+'93783995',
 'Australia',
-'ACT',
+'NT',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -114,11 +114,11 @@ values
 (
 '7',
 'middle field',
-'882',
-'20 Isaac Road',
+'934',
+'32 Avondale Drive',
 'Wollongong',
-'9354',
-'76367338',
+'6908',
+'22996733',
 'Australia',
 'TAS',
 '1',
@@ -132,13 +132,13 @@ values
 (
 '8',
 'first field',
-'565',
-'99 Elizabeth Street',
+'420',
+'26 Garden Place',
 'Wollongong',
-'10758',
-'57590269',
+'1709',
+'29915072',
 'Australia',
-'NT',
+'QLD',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -150,13 +150,13 @@ values
 (
 '9',
 'last field',
-'700',
-'30 Fitzroy Street',
+'254',
+'33 Nandewar Street',
 'Wollongong',
-'10713',
-'49775370',
+'5228',
+'30895643',
 'Australia',
-'QLD',
+'NSW',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )
@@ -168,13 +168,13 @@ values
 (
 '10',
 'main field',
-'245',
-'96 George Street',
+'618',
+'80 Taylor Street',
 'Wollongong',
-'5088',
-'76461277',
+'9583',
+'99328500',
 'Australia',
-'QLD',
+'TAS',
 '1',
 geography::STGeomFromText('LINESTRING(-122.360 47.656, -122.343 47.656 )', 4326)
 )

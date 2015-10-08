@@ -5,11 +5,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '1',
-'KindheartedTable',
+'hotFire',
 '16',
 '4',
 'Soccer',
-'30',
+'43',
 null,
 '1'
 )
@@ -20,11 +20,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '2',
-'KindheartedDog',
+'MercifulCat',
 '16',
 '4',
 'Soccer',
-'11',
+'52',
 null,
 '1'
 )
@@ -35,11 +35,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '3',
-'SableRope',
+'UnderstoodAnteater',
 '16',
 '4',
 'Soccer',
-'98',
+'94',
 null,
 '1'
 )
@@ -50,11 +50,11 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '4',
-'CheapChair',
+'soulfulCat',
 '16',
 '4',
 'Soccer',
-'52',
+'64',
 null,
 '1'
 )
@@ -65,217 +65,7 @@ INSERT INTO [dbo].[TEAM]
 values 
 (
 '5',
-'rabbitPaper',
-'16',
-'4',
-'Soccer',
-'31',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'6',
-'greyWombat',
-'16',
-'4',
-'Soccer',
-'27',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'7',
-'KindheartedElephant',
-'16',
-'4',
-'Soccer',
-'64',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'8',
-'UnbiasedWater',
-'16',
-'4',
-'Soccer',
-'3',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'9',
-'UnbiasedAir',
-'16',
-'4',
-'Soccer',
-'61',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'10',
-'greyRope',
-'16',
-'4',
-'Soccer',
-'77',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'11',
-'rabbitFish',
-'16',
-'4',
-'Soccer',
-'18',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'12',
-'UnderstoodWater',
-'16',
-'4',
-'Soccer',
-'8',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'13',
-'ElegantComputer',
-'16',
-'4',
-'Soccer',
-'97',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'14',
-'KindheartedChair',
-'16',
-'4',
-'Soccer',
-'29',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'15',
-'ElegantCat',
-'16',
-'4',
-'Soccer',
-'90',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'16',
-'MaliciousRope',
-'16',
-'4',
-'Soccer',
-'52',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'17',
-'UnbiasedMen',
-'16',
-'4',
-'Soccer',
-'70',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'18',
-'MercifulFish',
-'16',
-'4',
-'Soccer',
-'64',
-null,
-'1'
-)
- GO 
-
-INSERT INTO [dbo].[TEAM] 
- (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
-values 
-(
-'19',
-'ElegantFish',
+'HealthyAir',
 '16',
 '4',
 'Soccer',
@@ -289,12 +79,222 @@ INSERT INTO [dbo].[TEAM]
  (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
 values 
 (
-'20',
-'DefeatedString',
+'6',
+'EntertainingWombat',
 '16',
 '4',
 'Soccer',
-'78',
+'92',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'7',
+'SafeWater',
+'16',
+'4',
+'Soccer',
+'40',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'8',
+'ElegantBird',
+'16',
+'4',
+'Soccer',
+'29',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'9',
+'FeignedDog',
+'16',
+'4',
+'Soccer',
+'68',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'10',
+'SableAir',
+'16',
+'4',
+'Soccer',
+'89',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'11',
+'ElegantElephant',
+'16',
+'4',
+'Soccer',
+'92',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'12',
+'SafeMen',
+'16',
+'4',
+'Soccer',
+'92',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'13',
+'greyWomen',
+'16',
+'4',
+'Soccer',
+'93',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'14',
+'UnsightlyAir',
+'16',
+'4',
+'Soccer',
+'19',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'15',
+'UnderstoodRope',
+'16',
+'4',
+'Soccer',
+'74',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'16',
+'MercifulPokemon',
+'16',
+'4',
+'Soccer',
+'23',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'17',
+'hotWolf',
+'16',
+'4',
+'Soccer',
+'57',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'18',
+'UnsightlyMen',
+'16',
+'4',
+'Soccer',
+'13',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'19',
+'wildDog',
+'16',
+'4',
+'Soccer',
+'45',
+null,
+'1'
+)
+ GO 
+
+INSERT INTO [dbo].[TEAM] 
+ (teamId, name, ageBracket, grade, sport, managerId, shortName, status) 
+values 
+(
+'20',
+'ThreateningWomen',
+'16',
+'4',
+'Soccer',
+'34',
 null,
 '1'
 )
